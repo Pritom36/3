@@ -1,0 +1,68 @@
+{
+    "comics": [
+      {
+        "id": "comic1",
+        "title": "One Punch Man Season 1 Chapter 1",
+        "description": "",
+        "level": "beginner",
+        "coverImage": "./comics-images/One punch/1_Page_002.jpg",
+        "imageData": {
+          "basePath": "./comics-images/One punch",
+          "filenamePrefix": "1_Page_",
+          "pageNumberPadding": 3,
+          "imageFormat": "jpg",
+          "pageCount": 15
+        },
+        "vocabId": "vocab1"
+      },
+      {
+        "id": "comic2",
+        "title": "Mystery at Midnight",
+        "description": "Detective Sarah solves a mysterious case in London. Intermediate vocabulary.",
+        "level": "intermediate",
+        "coverImage": "https://via.placeholder.com/400x300/3F37C9/FFFFFF?text=Mystery+at+Midnight",
+        "imageData": {
+          "basePath": "comics-images/comic2/",
+          "filenamePrefix": "page-",
+          "pageNumberPadding": 2,
+          "imageFormat": "png",
+          "pageCount": 22
+        },
+        "vocabId": "vocab2"
+      },
+      {
+        "id": "comic3",
+        "title": "Sci-Fi Chronicles",
+        "description": "A futuristic adventure with complex themes and advanced vocabulary.",
+        "level": "advanced",
+        "coverImage": "https://via.placeholder.com/400x300/F72585/FFFFFF?text=Sci-Fi+Chronicles",
+        "imageData": {
+          "basePath": "comics-images/comic3/",
+          "filenamePrefix": "",
+          "pageNumberPadding": 1,
+          "imageFormat": "webp",
+          "pageCount": 10
+        },
+        "vocabId": "vocab3"
+      }
+    
+    ],
+    "vocabulary": {
+      "vocab1": [
+        { "word": "skyscraper", "pronunciation": "/ˈskaɪˌskreɪpər/", "definition": "A very tall building with many floors.", "example": "The Empire State Building is famous." },
+        { "word": "subway", "pronunciation": "/ˈsʌbˌweɪ/", "definition": "An underground railway system in a city.", "example": "Let's take the subway." },
+        { "word": "tourist", "pronunciation": "/ˈtʊrɪst/", "definition": "A person who travels for pleasure.", "example": "Many tourists visit Times Square." }
+      ],
+      "vocab2": [
+        { "word": "clue", "definition": "Evidence that helps solve a problem."},
+        { "word": "suspect", "definition": "Person thought to be guilty."}
+      ],
+      "vocab3": [
+         { "word": "quantum", "definition": "A discrete quantity of energy."},
+         { "word": "interstellar", "definition": "Between stars."}
+      ],
+      "not_found": [
+        { "word": "N/A", "definition": "No specific vocabulary list found for this comic." }
+      ]
+    }
+  }
